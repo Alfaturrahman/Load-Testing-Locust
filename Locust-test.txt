@@ -1,0 +1,12 @@
+#Untuk Test User Valid
+locust -f locust_valid.py --host=http://localhost:5000
+
+#Untuk Test User Yang tidak Valid
+locust -f locust_invalid.py --host=http://localhost:5000
+
+
+#Untuk Generate User
+python generate_users.py
+
+# Untuk Jalanin Service API saya
+python app.py
