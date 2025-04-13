@@ -1,0 +1,17 @@
+email,password
+user@example.com,WrongPassword
+invalid@example.com,Password123
+,Password123
+user@example.com,
+,
+notanemail.com,abc123
+invalid0@example.com,wrongpass
+invalid1@example.com,wrongpass
+invalid2@example.com,123456
+invalid3@example.com,
+invalid4@example.com,123456
+invalid5@example.com,wrongpass
+invalid6@example.com,123456
+invalid7@example.com,123456
+invalid8@example.com,
+invalid9@example.com,123456
