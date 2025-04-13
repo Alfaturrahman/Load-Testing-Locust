@@ -5,6 +5,8 @@ Langkah - langkah
 3. python generate_users.py
 4. locust -f locust_invalid.py --host=http://localhost:5000
 5. locust -f locust_valid.py --host=http://localhost:5000
+6. locust -f locust_combined.py --host=http://localhost:5000
+
 
 =========== Keterangan Penggunaan =========== 
 #Untuk Test User Valid
@@ -12,6 +14,9 @@ locust -f locust_valid.py --host=http://localhost:5000
 
 #Untuk Test User Yang tidak Valid
 locust -f locust_invalid.py --host=http://localhost:5000
+
+#Untuk Test Kedua Jenis User 
+locust -f locust_combined.py --host=http://localhost:5000
 
 #Untuk Generate User
 python generate_users.py
